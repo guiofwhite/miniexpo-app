@@ -1,2 +1,0 @@
-# miniexpo-app
-mini app 
