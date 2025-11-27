@@ -10,7 +10,7 @@ return (
 <NavigationContainer>
 <Stack.Navigator>
 
-<Stack.Screen name="Home" component={HomeScreen} />
+<Stack.Screen name="Página dos Cria" component={HomeScreen} />
 <Stack.Screen name="Pagina2" component={Pagina2} />
 
 </Stack.Navigator>
@@ -22,10 +22,10 @@ function HomeScreen({ navigation }) {
 return (
 <View style={styles.container}>
 <StatusBar barStyle="light-content" backgroundColor="#1e697c" />
-<Text style={styles.welcomeText}>Bem vindo ao seu app!</Text>
+<Text style={styles.welcomeText}>Bem vindo aos Crias!</Text>
 
 <Button
-title="Ir para Página 2"
+title="Ir para a segunda page"
 onPress={() => navigation.navigate("Pagina2")}
 />
 </View>
@@ -35,7 +35,7 @@ onPress={() => navigation.navigate("Pagina2")}
 const styles = StyleSheet.create({
 container: {
 flex: 1,
-backgroundColor: '#c4c4c4ff',
+backgroundColor: '#e6fffdff',
 justifyContent: 'center',
 alignItems: 'center',
 paddingHorizontal: 30,

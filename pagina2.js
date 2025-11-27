@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function Pagina2() {
 return (
 <View style={styles.container}>
-<Text style={styles.texto}>Eu sou lindo!</Text>
+<Text style={styles.texto}>Bem vindo aos Cria!</Text>
 </View>
 );
 }
@@ -16,6 +16,7 @@ alignItems: 'center',
 },
 texto: {
 fontSize: 22,
+color: '#000000ff',
 fontWeight: 'bold',
 }
 });
