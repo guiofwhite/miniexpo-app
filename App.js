@@ -22,7 +22,7 @@ function HomeScreen({ navigation }) {
 return (
 <View style={styles.container}>
 <StatusBar barStyle="light-content" backgroundColor="#1e697c" />
-<Text style={styles.welcomeText}>Bem vindo aos Crias!</Text>
+<Text style={styles.welcomeText}>Seja membro dos Cria!</Text>
 
 <Button
 title="Ir para a segunda page"
