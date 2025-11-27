@@ -25,7 +25,7 @@ return (
 <Text style={styles.welcomeText}>Seja membro dos Cria!</Text>
 
 <Button
-title="Ir para a segunda page"
+title="Ir para a Página 2"
 onPress={() => navigation.navigate("Pagina2")}
 />
 </View>
